@@ -1,7 +1,7 @@
 ﻿
 namespace PArcial1_ap1_2017_0485
 {
-    partial class Form1
+    partial class rCiudades
     {
         /// <summary>
         ///  Required designer variable.
