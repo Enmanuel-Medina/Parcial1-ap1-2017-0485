@@ -29,6 +29,7 @@ namespace PArcial1_ap1_2017_0485
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(rCiudades));
             this.label1 = new System.Windows.Forms.Label();
             this.IdNumericUpDown = new System.Windows.Forms.NumericUpDown();
@@ -38,7 +39,9 @@ namespace PArcial1_ap1_2017_0485
             this.NuevoButton = new System.Windows.Forms.Button();
             this.GuardarButton = new System.Windows.Forms.Button();
             this.EliminarButton = new System.Windows.Forms.Button();
+            this.MyErrorProvider = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.IdNumericUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MyErrorProvider)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -96,6 +99,7 @@ namespace PArcial1_ap1_2017_0485
             this.NuevoButton.TabIndex = 5;
             this.NuevoButton.Text = "Nuevo";
             this.NuevoButton.UseVisualStyleBackColor = true;
+            this.NuevoButton.Click += new System.EventHandler(this.NuevoButton_Click);
             // 
             // GuardarButton
             // 
@@ -108,6 +112,7 @@ namespace PArcial1_ap1_2017_0485
             this.GuardarButton.Text = "Guardar";
             this.GuardarButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.GuardarButton.UseVisualStyleBackColor = true;
+            this.GuardarButton.Click += new System.EventHandler(this.GuardarButton_Click);
             // 
             // EliminarButton
             // 
@@ -120,6 +125,11 @@ namespace PArcial1_ap1_2017_0485
             this.EliminarButton.Text = "Eliminar";
             this.EliminarButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.EliminarButton.UseVisualStyleBackColor = true;
+            this.EliminarButton.Click += new System.EventHandler(this.EliminarButton_Click);
+            // 
+            // MyErrorProvider
+            // 
+            this.MyErrorProvider.ContainerControl = this;
             // 
             // rCiudades
             // 
@@ -139,6 +149,7 @@ namespace PArcial1_ap1_2017_0485
             this.Name = "rCiudades";
             this.Text = "Registro de Ciudades";
             ((System.ComponentModel.ISupportInitialize)(this.IdNumericUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MyErrorProvider)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -154,6 +165,8 @@ namespace PArcial1_ap1_2017_0485
         private System.Windows.Forms.Button NuevoButton;
         private System.Windows.Forms.Button GuardarButton;
         private System.Windows.Forms.Button EliminarButton;
+        private System.Windows.Forms.ErrorProvider MyrrorProvider;
+        private System.Windows.Forms.ErrorProvider MyErrorProvider;
     }
 }
 
