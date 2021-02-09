@@ -17,5 +17,9 @@ namespace PArcial1_ap1_2017_0485
             InitializeComponent();
         }
 
+        private void BuscarButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
