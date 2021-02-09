@@ -49,6 +49,7 @@ namespace PArcial1_ap1_2017_0485
                 NombreTextBox.Focus();
                 paso = false;
             }
+          
             return paso;
         }
 
