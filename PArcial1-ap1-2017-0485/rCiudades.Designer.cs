@@ -80,9 +80,9 @@ namespace PArcial1_ap1_2017_0485
             // 
             this.BuscarButton.Image = ((System.Drawing.Image)(resources.GetObject("BuscarButton.Image")));
             this.BuscarButton.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.BuscarButton.Location = new System.Drawing.Point(304, 40);
+            this.BuscarButton.Location = new System.Drawing.Point(304, 39);
             this.BuscarButton.Name = "BuscarButton";
-            this.BuscarButton.Size = new System.Drawing.Size(87, 37);
+            this.BuscarButton.Size = new System.Drawing.Size(87, 38);
             this.BuscarButton.TabIndex = 4;
             this.BuscarButton.Text = "Buscar";
             this.BuscarButton.TextAlign = System.Drawing.ContentAlignment.TopRight;
