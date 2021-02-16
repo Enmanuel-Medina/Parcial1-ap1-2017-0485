@@ -1,8 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+ 
+	
 
-	<StartWorkingDirectory>$(MSBuilProjectDirectory)</StartWorkingDirectory>
-		
   <PropertyGroup>
+	  <StartWorkingDirectory>$(MSBuildProjectDirectory)</StartWorkingDirectory>
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>PArcial1_ap1_2017_0485</RootNamespace>
